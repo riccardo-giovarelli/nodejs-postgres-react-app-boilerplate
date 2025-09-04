@@ -1,9 +1,9 @@
-# Money Super Hero
+# nodejs-postgres-react-app-boilerplate 
 
-Application for managing your budget
+Web App Boilerplate (Node.js PostgreSQL React)
 
 ## Version
-Work in Progress :construction_worker:
+1.0.0
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/)

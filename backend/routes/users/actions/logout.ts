@@ -20,7 +20,7 @@ router.get('/', authenticationMiddleware, (req, res) => {
     if (err) {
       res.status(200).json({ code: 'LOGOUT_ERROR', message: 'Error while logging out', details: err });
     } else {
-      res.clearCookie('money-super-hero-session');
+      res.clearCookie('app-boilerplate-session');
       res.json({ code: 'LOGGED_OUT', message: 'User logged out', details: 'Current user logged out' });
     }
   });
