@@ -7,9 +7,6 @@ import express from 'express';
 import session from 'express-session';
 import NodeCache from 'node-cache';
 
-import categoriesRoutes from './routes/categories/categories.ts';
-import subcategoriesRoutes from './routes/sub-categories/sub-categories.ts';
-import transactionsRoutes from './routes/transactions/transactions.ts';
 import usersRoutes from './routes/users/users.ts';
 
 // New Express
@@ -27,7 +24,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(
   session({
-    name: 'money-super-hero-session',
+    name: 'app-boilerplate-session',
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
@@ -42,21 +39,6 @@ app.use(
  * Route -> USERS
  */
 app.use('/api/users', usersRoutes);
-
-/**
- * Route -> CATEGORIES
- */
-app.use('/api/categories', categoriesRoutes);
-
-/**
- * Route -> SUB-CATEGORIES
- */
-app.use('/api/subcategories', subcategoriesRoutes);
-
-/**
- * Route -> TRANSACTIONS
- */
-app.use('/api/transactions', transactionsRoutes);
 
 // Express goes live
 app.listen(3000, () => {

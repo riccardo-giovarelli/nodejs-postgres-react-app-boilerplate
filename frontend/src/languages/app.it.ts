@@ -1,6 +1,6 @@
 export const app = {
   translation: {
-    'app.name': 'Money Super Hero',
+    'app.name': 'Web App Boilerplate',
     'app.data_table.add_record': 'Aggiungi record',
     'app.message.ok': 'OK',
     'app.message.cancel': 'Annulla',
