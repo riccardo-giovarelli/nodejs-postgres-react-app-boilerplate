@@ -1,6 +1,6 @@
 # nodejs-postgresql-react-app-boilerplate 
 
-Web App Boilerplate (Node.js PostgreSQL React)
+Web App Boilerplate (Node.js - PostgreSQL - React - Adminer)
 
 ## Version
 1.0.0
@@ -56,6 +56,10 @@ _From the folder `backend`_
 ### App url
 `http://localhost:8000/`
 
+### Adminer url
+
+`http://localhost:8080/`
+
 ## Authors
 
 | Riccardo Giovarelli | [![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/riccardo-giovarelli) [![github](https://img.shields.io/badge/github-181717.svg?logo=github&logoColor=white)](https://github.com/riccardo-giovarelli)  |
@@ -79,9 +83,10 @@ _From the folder `backend`_
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vite.dev/)
 [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
-[![Zustand](https://img.shields.io/badge/Zustand-582D3E.svg?logo=amazon-aws&logoColor=white)](https://zustand.docs.pmnd.rs/)
+[![Zustand](https://img.shields.io/badge/Zustand-582D3E.svg?logoColor=white)](https://zustand.docs.pmnd.rs/)
 [![i18next](https://img.shields.io/badge/i18next-26A69A?logo=i18next&logoColor=fff&style)](https://www.i18next.com/)
 [![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff)](https://axios-http.com/)
+[![Adminer](https://img.shields.io/badge/Adminer-34567C.svg?logoColor=white)](https://www.adminer.org/)
 
 
 
