@@ -30,14 +30,22 @@ flowchart TD
 ```
 
 ## Environment
+
 ### First run :hammer:
+
+_From the folder `backend`_
+```bash
+  yarn
+```
+
 _From the project root_
 ```bash
   docker compose up --build
 ```
+
 _From the folder `backend`_
 ```bash
-  yarn && yarn migrate up
+  yarn migrate up
 ```
 
 ### Run :point_right:
@@ -59,6 +67,37 @@ _From the folder `backend`_
 ### Adminer url
 
 `http://localhost:8080/`
+
+## Frontend routes
+
+### Signin
+
+`http://localhost:8000/signin`
+
+
+### Signup
+
+`http://localhost:8000/signup`
+
+
+### Dashboard
+
+`/`
+
+
+### User profile
+
+`/profile`
+
+## Screenshot
+
+### Dashboard
+
+![Dashboard screenshot](images/dashboard.png "Dashboard")
+
+### User profile page
+
+![User profile page screenshot](images/user_profile_page.png "User profile page")
 
 ## Authors
 
