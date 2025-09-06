@@ -1,4 +1,4 @@
-# nodejs-postgres-react-app-boilerplate 
+# nodejs-postgresql-react-app-boilerplate 
 
 Web App Boilerplate (Node.js PostgreSQL React)
 
@@ -10,7 +10,7 @@ Web App Boilerplate (Node.js PostgreSQL React)
 - [Yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com/)
 
-## Project Structure
+## Web App Structure
 ```mermaid
 flowchart TD
     NGINX <--> FEid1([Frontend]) -- Tech --> FE-T-LIST["`TypeScript
