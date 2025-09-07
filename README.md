@@ -2,6 +2,33 @@
 
 Web App Boilerplate (Node.js - PostgreSQL - React - Adminer)
 
+## Table of contents
+
+- [nodejs-postgresql-react-app-boilerplate](#nodejs-postgresql-react-app-boilerplate)
+  - [Table of contents](#table-of-contents)
+  - [Version](#version)
+  - [Prerequisites](#prerequisites)
+  - [Web App Structure](#web-app-structure)
+  - [Environment](#environment)
+    - [First run :hammer:](#first-run-hammer)
+    - [Run :point\_right:](#run-point_right)
+    - [Stop :hand:](#stop-hand)
+  - [Development server](#development-server)
+    - [App url](#app-url)
+    - [Adminer url](#adminer-url)
+  - [Frontend routes](#frontend-routes)
+    - [Signin](#signin)
+    - [Signup](#signup)
+    - [Dashboard](#dashboard)
+    - [User profile](#user-profile)
+  - [Screenshot](#screenshot)
+    - [Dashboard](#dashboard-1)
+    - [User profile page](#user-profile-page)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Badges](#badges)
+
+
 ## Version
 1.0.0
 
@@ -33,28 +60,35 @@ flowchart TD
 
 ### First run :hammer:
 
-_From the folder `backend`_
+1 - From the folder `backend`:
+
 ```bash
   yarn
 ```
 
-_From the project root_
+2 - From the project root:
+
 ```bash
   docker compose up --build
 ```
 
-_From the folder `backend`_
+3 - From the folder `backend`:
+
 ```bash
   yarn migrate up
 ```
 
 ### Run :point_right:
 
+From the project root:
+
 ```bash
   docker compose up
 ```
 
 ### Stop :hand:
+
+From the project root:
 
 ```bash
   docker compose stop
@@ -72,12 +106,12 @@ _From the folder `backend`_
 
 ### Signin
 
-`http://localhost:8000/signin`
+`/signin`
 
 
 ### Signup
 
-`http://localhost:8000/signup`
+`/signup`
 
 
 ### Dashboard
@@ -101,8 +135,8 @@ _From the folder `backend`_
 
 ## Authors
 
-| Riccardo Giovarelli | [![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/riccardo-giovarelli) [![github](https://img.shields.io/badge/github-181717.svg?logo=github&logoColor=white)](https://github.com/riccardo-giovarelli)  |
-|---|---|
+| Riccardo Giovarelli | [![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/riccardo-giovarelli) [![github](https://img.shields.io/badge/github-181717.svg?logo=github&logoColor=white)](https://github.com/riccardo-giovarelli) |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## License
 
