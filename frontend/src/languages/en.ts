@@ -1,4 +1,3 @@
-import { app } from './app.en';
 import { authentication } from './authentication.en';
 import { dashboard } from './dashboard.en';
 import { indoorMenu } from './indoor-menu.en';
@@ -11,7 +10,6 @@ export const en = {
     ...indoorMenu.translation,
     ...userMenu.translation,
     ...userProfile.translation,
-    ...app.translation,
     ...dashboard.translation,
   },
 };

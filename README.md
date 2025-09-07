@@ -1,6 +1,6 @@
 # nodejs-postgresql-react-app-boilerplate 
 
-Web App Boilerplate (Node.js - PostgreSQL - React - Adminer)
+Web App Boilerplate with _Node.js_ backend, _PostgreSQL_ database, _React_ frontend in a _Docker_ development environment with the support of _Adminer_ database manager.
 
 ## Table of contents
 
@@ -9,6 +9,7 @@ Web App Boilerplate (Node.js - PostgreSQL - React - Adminer)
   - [Version](#version)
   - [Prerequisites](#prerequisites)
   - [Web App Structure](#web-app-structure)
+    - [Mermaid diagram](#mermaid-diagram)
   - [Environment](#environment)
     - [First run :hammer:](#first-run-hammer)
     - [Run :point\_right:](#run-point_right)
@@ -38,6 +39,9 @@ Web App Boilerplate (Node.js - PostgreSQL - React - Adminer)
 - [Docker](https://www.docker.com/)
 
 ## Web App Structure
+
+### [Mermaid](https://mermaid.js.org/) diagram
+
 ```mermaid
 flowchart TD
     NGINX <--> FEid1([Frontend]) -- Tech --> FE-T-LIST["`TypeScript
