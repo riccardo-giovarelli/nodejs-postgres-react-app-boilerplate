@@ -20,10 +20,10 @@ Web App Boilerplate with _Node.js_ backend, _PostgreSQL_ database, _React_ front
   - [Frontend routes](#frontend-routes)
     - [Signin](#signin)
     - [Signup](#signup)
-    - [Dashboard](#dashboard)
+    - [Home](#home)
     - [User profile](#user-profile)
   - [Screenshot](#screenshot)
-    - [Dashboard](#dashboard-1)
+    - [Home](#home-1)
     - [User profile page](#user-profile-page)
   - [Authors](#authors)
   - [License](#license)
@@ -118,7 +118,7 @@ From the project root:
 `/signup`
 
 
-### Dashboard
+### Home
 
 `/`
 
@@ -129,9 +129,9 @@ From the project root:
 
 ## Screenshot
 
-### Dashboard
+### Home
 
-![Dashboard screenshot](images/dashboard.png "Dashboard")
+![Home screenshot](images/home.png "Home")
 
 ### User profile page
 

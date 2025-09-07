@@ -1,19 +1,19 @@
 import { lazy } from 'react';
-import DashboardIcon from '@mui/icons-material/Dashboard';
+import HomeIcon from '@mui/icons-material/Home';
 import { RoutesIndoorType } from './routes.type';
 
-const Dashboard = lazy(() => import('@/pages/dashboard'));
+const Home = lazy(() => import('@/pages/home'));
 const UserProfile = lazy(() => import('@/pages/user-profile'));
 
 export const routesIndoor: readonly RoutesIndoorType[] = Object.freeze([
   {
-    id: 'indor-dashboard',
+    id: 'indor-home',
     path: '/',
     menuPath: '/',
-    name: 'dashboard',
-    element: Dashboard,
-    labelLangCode: 'indoor_menu.dashboard',
-    icon: DashboardIcon,
+    name: 'home',
+    element: Home,
+    labelLangCode: 'indoor_menu.home',
+    icon: HomeIcon,
   },
   {
     id: 'indor-user-profile',

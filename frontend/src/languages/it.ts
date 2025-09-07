@@ -2,7 +2,7 @@ import { authentication } from './authentication.it';
 import { indoorMenu } from './indoor-menu.it';
 import { userMenu } from './user-menu.it';
 import { userProfile } from './user-profile.it';
-import { dashboard } from './dashboard.it';
+import { home } from './home.it';
 
 export const it = {
   translation: {
@@ -10,6 +10,6 @@ export const it = {
     ...indoorMenu.translation,
     ...userMenu.translation,
     ...userProfile.translation,
-    ...dashboard.translation,
+    ...home.translation,
   },
 };
